@@ -5,11 +5,11 @@ public class Time {
 	private int minute;
 	private int second;
 	
-	Time(){
+	public Time(){
 		setTime(System.currentTimeMillis ());
 	}
 	
-	Time(long milliseconds){
+	public Time(long milliseconds){
 		setTime(milliseconds);
 	}
 	
